@@ -11,7 +11,7 @@ https://github.com/chandrikadeb7/Face-Mask-Detection
 - facenet 
 - mobilenetV2
 
-# How to user
+# How to use
 1. download dataset
    > save to folder 'train' 
    > rename to mask.(no).jpg and nomask.(no).jpg
