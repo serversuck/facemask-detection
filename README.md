@@ -18,3 +18,14 @@ https://github.com/chandrikadeb7/Face-Mask-Detection
     > $ python mask_train.py
 4. detect face mask with
     > $ python face.py
+
+# Model training by
+mr sorapong somsorn
+sorapon@varee.ac.th
+
+# credit
+best giude for (deep)Neural Network : transfer learning
+> https://www.youtube.com/watch?v=SEbWKEwl7K0
+
+facenet
+> https://github.com/davidsandberg/facenet
