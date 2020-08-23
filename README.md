@@ -13,6 +13,8 @@ https://github.com/chandrikadeb7/Face-Mask-Detection
 
 # How to user
 1. download dataset
+   > save to folder 'train' 
+   > rename to mask.(no).jpg and nomask.(no).jpg
 2. download model
 3. train network with
     > $ python mask_train.py
