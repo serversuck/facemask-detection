@@ -12,9 +12,9 @@ https://github.com/chandrikadeb7/Face-Mask-Detection
 - mobilenetV2
 
 # How to user
-1. download dataset, save to  same train folder (rename to mask.no.jpg , nonmask.no.jpg)
+1. download dataset
 2. download model
 3. train network with
-    python mask_train.py
+    > $ python mask_train.py
 4. detect face mask with
-    python face.py
+    > $ python face.py
