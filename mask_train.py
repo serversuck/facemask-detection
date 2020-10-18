@@ -64,8 +64,8 @@ model = keras.Sequential([
 # model.compile(optimizer=keras.optimizers.RMSprop(lr=0.0001),
 #               loss='sparse_categorical_crossentropy',
 #               metrics= ['accuracy'])
-batch_size = 32
-epochs = 5
+bz = 32
+ep = 5
 #
 
 base_model.trainable=True
@@ -74,6 +74,6 @@ for layer in base_model.layers[:100]:
 model.compile(optimizer=keras.optimizers.RMSprop(lr=0.0001), loss='sparse_categorical_crossentropy'
                 , metrics= ['accuracy'])
 
-history = model.fit(X_train ,y_train ,batch_size=32, epochs=5 ,validation_data=(X_test,y_test) )
+history = model.fit(X_train ,y_train ,batch_size=bz, epochs=ep ,validation_data=(X_test,y_test) )
 model.save("mobileV2-maskcheckx.h5")
 
